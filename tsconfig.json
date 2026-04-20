@@ -6,6 +6,12 @@
       "@/*": [
         "./src/*"
       ],
+      "@/theme": [
+        "./src/assets/themes/index"
+      ],
+      "@/theme/*": [
+        "./src/assets/themes/*"
+      ],
       "@/assets/*": [
         "./assets/*"
       ]
