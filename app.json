@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "expo-clean-architecture-template",
-    "slug": "expo-clean-architecture-template",
+    "name": "Hello App Display Name",
+    "slug": "HelloWorld",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "expocleanarchitecturetemplate",
+    "scheme": "helloworld",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.liberty.vinova.helloworld"
     },
     "android": {
       "adaptiveIcon": {
@@ -17,7 +18,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.liberty.vinova.helloworld"
     },
     "web": {
       "output": "static",
